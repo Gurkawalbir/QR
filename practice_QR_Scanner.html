@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://thumbs2.imgbox.com/3c/40/VXANTUNl_t.png"
+    />
+
+    <title>QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      html {
+        /* 10/16 * 100 = 62.5%   >>>>   1rem = 10px  */
+        font-size: 62.5%;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+
+      body {
+        box-sizing: inherit;
+        background-color: hsl(212, 45%, 89%);
+      }
+
+      .link {
+        text-decoration: none;
+      }
+      .attribution {
+        font-size: 1.5rem;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
+      /* font-family: 'Outfit', sans-serif; */
+
+      .container {
+        max-width: 37.5rem;
+        margin: 5rem auto 0;
+      }
+
+      .component {
+        font-family: "Outfit", sans-serif;
+        text-align: center;
+
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 2rem;
+
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 1.6rem 1.5rem 2rem 1.5rem;
+      }
+
+      .image {
+        max-width: 98%;
+        border-radius: 1rem;
+
+        margin-bottom: 2rem;
+      }
+
+      h3 {
+        color: hsl(217, 45%, 22%);
+        font-size: 2.2rem;
+        font-weight: 700;
+
+        margin-bottom: 1.3rem;
+      }
+
+      p {
+        color: hsl(220, 15%, 55%);
+        /* font-size: 15px; */
+        font-size: 1.5rem;
+        font-weight: 400;
+
+        margin-bottom: 1rem;
+      }
+
+      @media (min-width: 12450px) {
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Improve your front-end skills by building projects
+
+  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level -->
+
+    <div class="attribution">
+      This is a parctice project made by me <br />
+      Scan the QR code to visit my Github Page <br />
+
+      Coded by <a class="link" href="#">Gurkawalbir Singh</a>.
+    </div>
+
+    <div class="container">
+      <main class="component">
+        <img
+          class="image"
+          src="https://thumbs2.imgbox.com/3c/40/VXANTUNl_t.png"
+          alt=""
+        />
+        <h3>
+          Improve your front-end <br />
+          skills by building projects
+        </h3>
+        <p>Scan the QR Code to visit My Github Page <br /></p>
+      </main>
+    </div>
+  </body>
+</html>
